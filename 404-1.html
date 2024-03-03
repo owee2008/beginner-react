@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统维护通知</title>
+    <style>
+        body {
+            font-family: '宋体', 'SimSun', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .maintenance-container {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .maintenance-logo {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+
+        .maintenance-icon {
+            font-size: 48px;
+            color: #e74c3c;
+        }
+
+        .maintenance-message {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+<div class="maintenance-container">
+    <img src="government_logo.png" alt="政府Logo" class="maintenance-logo">
+    <div class="maintenance-icon">&#9888;</div>
+    <div class="maintenance-message">
+        <p>尊敬的用户，</p>
+        <p>为了提升系统性能和安全性，本系统正在进行计划性维护。</p>
+        <p>预计维护时间为 [开始时间] 至 [结束时间]。</p>
+        <p>在维护期间，系统将无法访问。感谢您的理解与支持。</p>
+        <p>如有紧急事务，请联系 [相关联系方式]。</p>
+    </div>
+</div>
+</body>
+</html>
